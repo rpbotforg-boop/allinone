@@ -28,7 +28,7 @@ THREADPOOL = ThreadPoolExecutor(max_workers=1000)
 
 bot = Client("bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
-OWNER_ID = 1671836568
+OWNER_ID = 777756062
 
 image_list = [
     "logo.jpg",
@@ -793,3 +793,4 @@ async def process_pwjsontotxt(bot: Client, m: Message, user_id: int):
         logging.info(f"Finished processing JSON from user {user_id}")
 
 bot.run()
+
